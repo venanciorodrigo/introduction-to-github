@@ -167,7 +167,7 @@ layout: false
 
   * That book can be in English, German, French, PHP, Javascript or Brainfuck
 
-  * The language has specific vocabulary, a syntax, grammatical rules...
+  * The language has a specific vocabulary, a syntax, grammatical rules...
 
 ]
 
@@ -187,7 +187,7 @@ layout: false
 
   * That book can be in English, German, French, PHP, Javascript or Brainfuck
 
-  * The language has specific vocabulary, a syntax, grammatical rules...
+  * The language has a specific vocabulary, a syntax, grammatical rules...
 
   * But in the end it's just text (with nice colors)
 
@@ -208,7 +208,7 @@ layout: false
 ]
 .right-column[
   
-  ###  GitHub is base on Git
+  ###  GitHub is based on Git
 
   * Git is a distributed revision control and source code management (SCM) system .red[*]
 
@@ -234,7 +234,7 @@ layout: false
 ]
 .right-column[
 
-  ###  GitHub is base on Git
+  ###  GitHub is based on Git
 
   * Git is a distributed revision control and source code management (SCM) system .red[*]
 
@@ -266,17 +266,70 @@ layout: false
 .left-column[
   ## Programming
   ## ~~GitWhat?~~GitHub
-  ## GitFlow
+  ## Workflow
 ]
 .right-column[
 
-  ###  Repo, Fork, Branch, Commit, Pull Request, Merge, Rebase
+  ## Repositories and branches
 
+  * We collaborate on a project, sharing it on a **repository**
 
-  ###  ?!
+  * That repository has different **branches**:
 
+    * one **master** (stable)
+    * one **develop** (unstable)
+    * many **feature** branches (new stuff)
 
 ]
+
+
+
+---
+
+layout: false
+.left-column[
+  ## Programming
+  ## ~~GitWhat?~~GitHub
+  ## Workflow
+]
+.right-column[
+
+  ## Repositories and branches
+
+  * We collaborate on a project, sharing it on a **repository**
+
+  * That repository has different **branches**:
+
+    * one **master** (stable)
+    * one **develop** (unstable)
+    * many **feature** branches (new stuff)
+
+
+  ## Commits, pull requests, merges
+
+  * We **commit** changes to a feature branch
+
+  * Once it is complete, we open a **pull request** to develop
+
+  * Another developer can then **review** and **merge** the modifications
+
+]
+
+
+
+
+---
+
+name: motain
+layout: true
+class: center, middle
+---
+
+
+![Code](images/gitflow-medium.png)
+
+
+
 
 ---
 
@@ -310,7 +363,7 @@ layout: false
 .left-column[
   ## Programming
   ## ~~GitWhat?~~GitHub
-  ## GitFlow
+  ## Workflow
   ## Jargon
 ]
 .right-column[
@@ -323,13 +376,13 @@ layout: false
 
   * **Fork**: a copy of a repository
 
-  * **Branch**: a copy of the content of a repository, inside of it
+  * **Branch**: a subdivision from the trunk (master) or an other branch
 
   * **Commit**: adding a file to a branch
 
-  * **Local remote**
+  * **Merge**: import the content of a branch to an other
 
-  * **Pull request**
+  * **Pull request**: asking for a merge
 
 ]
 
@@ -340,7 +393,7 @@ layout: false
 .left-column[
   ## Programming
   ## ~~GitWhat?~~GitHub
-  ## GitFlow
+  ## Workflow
   ## Jargon
   ## Let's go!
 ]
@@ -355,9 +408,9 @@ layout: false
   * Create a file named after you in the folder "members"
 
         {
-          name: "Dummy Motainer",
-          github: "DummyMotainer2014",
-          description: "This account doesn't really exist"
+          "name": "Dummy Motainer",
+          "github": "DummyMotainer2014",
+          "description": "This account doesn't really exist"
         }
 
   * Edit the `index.html` text file, add your name to the list
