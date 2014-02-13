@@ -17,12 +17,13 @@ Notes
   * http://de.slideshare.net/GameCraftBulgaria/github-basics (@onurakpolat)
   * http://lifehacker.com/5983680/how-the-heck-do-i-use-github (@onurakpolat)
   * http://www.slideshare.net/halr9000/using-git-and-github-for-non-developers
+  * http://www.youtube.com/GitHubGuides
   
   
 ## Around GitHub links
 
   * https://www.penflip.com/
   * http://jsbin.com/
-
+  * http://signalvnoise.com/posts/2486-bootstrapped-profitable-proud-github
 
   
